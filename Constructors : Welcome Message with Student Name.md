@@ -13,7 +13,24 @@ To write a Python program that creates a **Student** class with a **default cons
 ## 🧾 Program
 
 Add code here
+class Student:
+
+def init(self,name,userid):
+
+self.name=name self.userid=userid self.display()
+
+def display(self):
+
+print(self.userid) 
+name=input()
+
+userid=input() 
+
+obj =Student(name,userid) obj.display()
 
 ## Output
+<img width="627" height="243" alt="image" src="https://github.com/user-attachments/assets/f0447f50-7e31-419e-ad85-3802951af2f3" />
 
 ## Result
+The Python program that creates a Student class with a default constructor,which will
+take the name and userid of the person as parameters print the userid of the person.
